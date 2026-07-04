@@ -409,10 +409,10 @@ if (contactForm) {
       this
     )
       .then(function() {
-        alert("Message envoyé avec succès !");
+        
       })
       .catch(function(error) {
-        alert("Erreur : " + JSON.stringify(error));
+        console.error('EmailJS error:', error);
       });
   });
 }
