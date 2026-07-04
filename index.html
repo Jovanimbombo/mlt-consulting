@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MLT Consulting </title>
+<meta name="description" content="MLT Consulting (My Lovely Traveling) - Votre partenaire de confiance pour vos démarches de mobilité internationale en RDC : visas d'étude, visas touristiques et immigration.">
+<link rel="icon" href="favicon.jpeg" type="image/jpeg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ===================== HEADER ===================== -->
+<header class="site-header" id="siteHeader">
+  <div class="header-inner">
+    <a href="#home" class="brand">
+      <img src="favicon.jpeg" alt="MLT Consulting Logo" class="brand-logo">
+      <span class="brand-name">MLT <em>Consulting</em></span>
+    </a>
+
+    <nav class="main-nav" id="mainNav">
+      <ul class="nav-list">
+        <li><a href="#home" class="nav-link active" data-i18n="nav_home">Accueil</a></li>
+        <li><a href="#about" class="nav-link" data-i18n="nav_about">À propos</a></li>
+        <li><a href="#services" class="nav-link" data-i18n="nav_services">Services</a></li>
+        <li><a href="#destinations" class="nav-link" data-i18n="nav_destinations">Destinations</a></li>
+        <li><a href="#contact" class="nav-link" data-i18n="nav_contact">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button class="lang-toggle" id="langToggle" aria-label="Changer de langue">
+          <span class="lang-pill active" data-lang="fr">FR</span>
+          <span class="lang-sep">|</span>
+          <span class="lang-pill" data-lang="en">EN</span>
+        </button>
+        <a href="#contact" class="btn btn-gold btn-header-cta" data-i18n="nav_cta">Prendre RDV</a>
+      </div>
+    </nav>
+
+    <button class="burger" id="burgerBtn" aria-label="Ouvrir le menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<div class="mobile-overlay" id="mobileOverlay"></div>
+
+<!-- ===================== HERO / HOME ===================== -->
+<section class="hero" id="home">
+  <div class="hero-bg" style="background-image:url('fond.jpg');"></div>
+  <div class="hero-overlay"></div>
+  <div class="hero-content reveal">
+    <p class="eyebrow" data-i18n="hero_eyebrow">My Lovely Traveling</p>
+    <h1 data-i18n="hero_h1">MLT CONSULTING</h1>
+    <h2 data-i18n="hero_h2">Heureux voyage et mémorable</h2>
+    <p class="hero-sub" data-i18n="hero_sub">Votre partenaire de confiance pour vos projets de mobilité internationale</p>
+    <div class="hero-ctas">
+      <a href="#services" class="btn btn-gold" data-i18n="hero_cta1">Découvrir nos services</a>
+      <a href="#contact" class="btn btn-outline-light" data-i18n="hero_cta2">Nous contacter</a>
+    </div>
+  </div>
+  <a href="#why" class="scroll-cue" aria-label="Défiler"><i class="fa-solid fa-chevron-down"></i></a>
+</section>
+
+<!-- ===================== WHY MLT ===================== -->
+<section class="why-section" id="why">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow" data-i18n="why_eyebrow">Notre engagement</p>
+      <h2 data-i18n="why_title">Pourquoi MLT ?</h2>
+    </div>
+    <div class="why-grid">
+      <div class="why-card reveal">
+        <div class="why-icon"><i class="fa-solid fa-compass"></i></div>
+        <h3 data-i18n="why_card1_title">Expertise</h3>
+        <p data-i18n="why_card1_text">Maîtrise des procédures de voyage et d'immigration</p>
+      </div>
+      <div class="why-card reveal">
+        <div class="why-icon"><i class="fa-solid fa-bolt"></i></div>
+        <h3 data-i18n="why_card2_title">Innovation</h3>
+        <p data-i18n="why_card2_text">Solutions modernes pour simplifier vos démarches</p>
+      </div>
+      <div class="why-card reveal">
+        <div class="why-icon"><i class="fa-solid fa-puzzle-piece"></i></div>
+        <h3 data-i18n="why_card3_title">Personnalisation</h3>
+        <p data-i18n="why_card3_text">Accompagnement sur mesure adapté à vos besoins</p>
+      </div>
+    </div>
+
+    <!-- Trust badges -->
+    <div class="trust-badges reveal">
+      <div class="trust-badge">
+        <i class="fa-solid fa-circle-check"></i>
+        <span data-i18n="trust1">100% Processus Transparent</span>
+      </div>
+      <div class="trust-badge">
+        <i class="fa-solid fa-scale-balanced"></i>
+        <span data-i18n="trust2">Accompagnement Légalement Conforme</span>
+      </div>
+      <div class="trust-badge">
+        <i class="fa-solid fa-pen-ruler"></i>
+        <span data-i18n="trust3">Stratégie Sur Mesure</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== ABOUT ===================== -->
+<section class="about-section" id="about">
+  <div class="container about-grid">
+    <div class="about-text reveal">
+      <p class="eyebrow" data-i18n="about_eyebrow">À propos de nous</p>
+      <h2 data-i18n="about_title">My Lovely Traveling</h2>
+      <p data-i18n="about_p1">My Lovely Traveling (MLT) est une structure d'assistance spécialisée en mobilité internationale, créée en 2022. Notre mission est d'accompagner des étudiants, professionnels et familles dans :</p>
+      <ul class="about-list">
+        <li data-i18n="about_li1">La préparation stratégique de dossiers visa</li>
+        <li data-i18n="about_li2">Les procédures d'immigration</li>
+        <li data-i18n="about_li3">L'obtention de visas d'études et touristiques</li>
+        <li data-i18n="about_li4">La planification complète de leur projet international</li>
+      </ul>
+      <p data-i18n="about_p2">Avec plus de 100 bénéficiaires accompagnés, MLT s'impose comme un acteur fiable et structuré dans le secteur de l'accompagnement international en RDC.</p>
+      <p class="about-quote" data-i18n="about_quote">"Nous ne traitons pas seulement des dossiers. Nous construisons des trajectoires vers l'international."</p>
+      <div class="value-badges">
+        <span class="value-badge" data-i18n="value1">Professionnalisme</span>
+        <span class="value-badge" data-i18n="value2">Transparence</span>
+        <span class="value-badge" data-i18n="value3">Intégrité</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== SERVICES ===================== -->
+<section class="services-section" id="services">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow" data-i18n="services_eyebrow">Ce que nous offrons</p>
+      <h2 data-i18n="services_title">Nos Services</h2>
+    </div>
+
+    <div class="services-grid">
+      <article class="service-card reveal">
+        <div class="service-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+        <h3 data-i18n="service1_title">Assistance Visa d'Étude</h3>
+        <p data-i18n="service1_intro">Nous accompagnons les étudiants dans leur projet académique international :</p>
+        <ul>
+          <li data-i18n="service1_li1">Orientation et choix du pays</li>
+          <li data-i18n="service1_li2">Analyse du profil académique &amp; Bourses d'étude</li>
+          <li data-i18n="service1_li3">Assistance à l'admission et constitution du dossier</li>
+          <li data-i18n="service1_li4">Accompagnement pour la demande de permis d'étude ou visa</li>
+        </ul>
+        <p class="service-goal"><strong data-i18n="goal_label">Objectif :</strong> <span data-i18n="service1_goal">Structurer un dossier solide et cohérent.</span></p>
+      </article>
+
+      <article class="service-card reveal">
+        <div class="service-icon"><i class="fa-solid fa-suitcase-rolling"></i></div>
+        <h3 data-i18n="service2_title">Assistance Visa Touristique Type-C</h3>
+        <p data-i18n="service2_intro">Préparation stratégique de votre dossier de visa tourisme :</p>
+        <ul>
+          <li data-i18n="service2_li1">Analyse du profil</li>
+          <li data-i18n="service2_li2">Vérification des documents</li>
+          <li data-i18n="service2_li3">Conseils personnalisés</li>
+          <li data-i18n="service2_li4">Préparation à l'entretien si nécessaire</li>
+        </ul>
+        <p class="service-warning" data-i18n="service2_warning">NB : Nous ne faisons pas les démarches à votre place. Nous vous guidons étape par étape afin de maximiser vos chances d'obtention.</p>
+      </article>
+
+      <article class="service-card reveal">
+        <div class="service-icon"><i class="fa-solid fa-earth-americas"></i></div>
+        <h3 data-i18n="service3_title">Assistance Immigration</h3>
+        <p data-i18n="service3_intro">Accompagnement dans le respect des lois et procédures :</p>
+        <ul>
+          <li data-i18n="service3_li1">Respect des lois et procédures d'immigration internationales</li>
+          <li data-i18n="service3_li2">Sensibilisation contre les pratiques illégales et fraudes documentaires</li>
+          <li data-i18n="service3_li3">Démarches légales, transparentes et responsables</li>
+        </ul>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== TESTIMONIALS ===================== -->
+<section class="testimonials-section" id="testimonials">
+  <div class="container">
+    <div class="section-head reveal light">
+      <p class="eyebrow" data-i18n="testi_eyebrow">Ils nous font confiance</p>
+      <h2 data-i18n="testi_title">Histoires de Réussite</h2>
+    </div>
+
+    <div class="testimonial-track" id="testimonialTrack">
+      <div class="testimonial-card reveal">
+        <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+        <p data-i18n="testi1_text">"Grâce à MLT, j'ai obtenu mon visa étudiant pour le Canada en un temps record. L'équipe a été présente à chaque étape, avec une transparence totale."</p>
+        <div class="testimonial-author">
+          <span class="author-name" data-i18n="testi1_name">Grace M.</span>
+          <span class="author-role" data-i18n="testi1_role">Étudiante - Canada</span>
+        </div>
+      </div>
+      <div class="testimonial-card reveal">
+        <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+        <p data-i18n="testi2_text">"Un accompagnement sérieux et professionnel. Mon dossier de visa pour la France était impeccable grâce à leurs conseils précis."</p>
+        <div class="testimonial-author">
+          <span class="author-name" data-i18n="testi2_name">Daniel K.</span>
+          <span class="author-role" data-i18n="testi2_role">Étudiant - France</span>
+        </div>
+      </div>
+      <div class="testimonial-card reveal">
+        <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+        <p data-i18n="testi3_text">"Je recommande vivement MLT Consulting. Leur sérieux et leur transparence m'ont permis d'aborder mon entretien visa en toute confiance."</p>
+        <div class="testimonial-author">
+          <span class="author-name" data-i18n="testi3_name">Maman Marie</span>
+          <span class="author-role" data-i18n="testi3_role">Schengen</span>
+        </div>
+      </div>
+      <div class="testimonial-card reveal">
+        <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+        <p data-i18n="testi4_text">"Chris O. a vraiment apprécié le suivi attentionné et professionnel de MLT : dossier traité rapidement, conseil clair et résultat obtenu pour son visa Chine."</p>
+        <div class="testimonial-author">
+          <span class="author-name" data-i18n="testi4_name">Chris O.</span>
+          <span class="author-role" data-i18n="testi4_role">Visa Chine</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== DESTINATIONS ===================== -->
+<section class="destinations-section" id="destinations">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow" data-i18n="dest_eyebrow">Où aller ensuite</p>
+      <h2 data-i18n="dest_title">Nos Destinations</h2>
+    </div>
+    <div class="destinations-grid">
+      <div class="dest-card reveal" style="background-image:url('https://images.unsplash.com/photo-1483683804023-6ccdb62f86ef?auto=format&fit=crop&w=800&q=80');">
+        <div class="dest-overlay"><span data-i18n="dest1">Espace Schengen</span></div>
+      </div>
+      <div class="dest-card reveal" style="background-image:url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80');">
+        <div class="dest-overlay"><span data-i18n="dest2">Canada</span></div>
+      </div>
+      <div class="dest-card reveal" style="background-image:url('https://images.unsplash.com/photo-1526772662000-3f88f10405ff?auto=format&fit=crop&w=800&q=80');">
+        <div class="dest-overlay"><span data-i18n="dest3">Turquie</span></div>
+      </div>
+      <div class="dest-card reveal" style="background-image:url('https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=80');">
+        <div class="dest-overlay"><span data-i18n="dest4">Chypre</span></div>
+      </div>
+      <div class="dest-card reveal" style="background-image:url('https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=800&q=80');">
+        <div class="dest-overlay"><span data-i18n="dest5">Zanzibar</span></div>
+      </div>
+      <div class="dest-card reveal" style="background-image:url('https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=800&q=80');">
+        <div class="dest-overlay"><span data-i18n="dest6">Chine</span></div>
+      </div>
+      <div class="dest-card reveal" style="background-image:url('https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80');">
+        <div class="dest-overlay"><span data-i18n="dest7">Dubaï</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== CONTACT ===================== -->
+<section class="contact-section" id="contact">
+  <div class="container contact-grid">
+    <div class="contact-form-wrap reveal">
+      <p class="eyebrow" data-i18n="contact_eyebrow">Parlons de votre projet</p>
+      <h2 data-i18n="contact_title">Contactez-nous</h2>
+      <form class="contact-form" id="mainContactForm" novalidate>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="fullName" data-i18n="form_fullname">Nom complet</label>
+            <input type="text" id="fullName" name="name" required>
+            <input type="hidden" id="hiddenFromName" name="from_name">
+            <input type="hidden" id="hiddenFullName" name="fullName">
+            <input type="hidden" id="hiddenUserName" name="user_name">
+            <span class="error-msg" data-i18n="form_error_required">Ce champ est requis</span>
+          </div>
+          <div class="form-group">
+            <label for="email" data-i18n="form_email">Adresse e-mail</label>
+            <input type="email" id="email" name="email" required>
+            <span class="error-msg" data-i18n="form_error_email">Veuillez entrer un e-mail valide</span>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="phone" data-i18n="form_phone">Téléphone</label>
+            <input type="tel" id="phone" name="phone" required>
+            <span class="error-msg" data-i18n="form_error_required">Ce champ est requis</span>
+          </div>
+          <div class="form-group">
+            <label for="service" data-i18n="form_service">Service souhaité</label>
+            <select id="service" name="service" required>
+              <option value="" data-i18n="form_service_default">-- Sélectionner --</option>
+              <option value="etude" data-i18n="form_service_1">Visa d'étude</option>
+              <option value="tourisme" data-i18n="form_service_2">Visa touristique</option>
+              <option value="immigration" data-i18n="form_service_3">Immigration</option>
+            </select>
+            <span class="error-msg" data-i18n="form_error_required">Ce champ est requis</span>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="message" data-i18n="form_message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+          <span class="error-msg" data-i18n="form_error_required">Ce champ est requis</span>
+        </div>
+        <button type="submit" class="btn btn-gold btn-full" data-i18n="form_submit">Envoyer le message</button>
+      </form>
+    </div>
+
+    <div class="contact-info-wrap reveal">
+      <ul class="contact-info-list">
+        <li><i class="fa-solid fa-location-dot"></i><span data-i18n="info_address">Limete, quartier Funa, Kinshasa, RDC</span></li>
+        <li><i class="fa-solid fa-phone"></i><span>+243 986 836 798</span></li>
+        <li><i class="fa-solid fa-envelope"></i><span>mltrdc2@gmail.com</span></li>
+        <li><i class="fa-solid fa-clock"></i><span data-i18n="info_hours">Lun - Ven, 8h00 - 17h00</span></li>
+      </ul>
+      <div class="social-links">
+        <a href="https://wa.me/243986836798" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://tiktok.com" target="_blank" rel="noopener" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== FOOTER ===================== -->
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-col footer-brand">
+      <img src="favicon.jpeg" alt="MLT Consulting Logo" class="footer-logo">
+      <p data-i18n="footer_slogan">Heureux voyage et mémorable. Votre partenaire de confiance pour vos projets de mobilité internationale.</p>
+      <div class="social-links">
+        <a href="https://wa.me/243986836798" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://tiktok.com" target="_blank" rel="noopener" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+      </div>
+    </div>
+
+    <div class="footer-col">
+      <h4 data-i18n="footer_nav_title">Navigation</h4>
+      <ul class="footer-nav">
+        <li><a href="#home" data-i18n="nav_home">Accueil</a></li>
+        <li><a href="#about" data-i18n="nav_about">À propos</a></li>
+        <li><a href="#services" data-i18n="nav_services">Services</a></li>
+        <li><a href="#destinations" data-i18n="nav_destinations">Destinations</a></li>
+        <li><a href="#contact" data-i18n="nav_contact">Contact</a></li>
+      </ul>
+    </div>
+
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p data-i18n="footer_copy">&copy; 2026 MLT CONSULTING - Tous droits réservés.</p>
+    <p class="footer-legal">
+      <a href="#" data-i18n="footer_legal1">Mentions légales</a> | <a href="#" data-i18n="footer_legal2">Politique de confidentialité</a>
+    </p>
+  </div>
+</footer>
+
+<!-- ===================== FLOATING ELEMENTS ===================== -->
+<button id="backToTop" class="back-to-top" aria-label="Retour en haut">
+  <i class="fa-solid fa-arrow-up"></i>
+</button>
+
+<!-- ===================== SUCCESS MODAL ===================== -->
+<div class="modal-overlay" id="successModal">
+  <div class="modal-box">
+    <button class="modal-close" id="modalClose" aria-label="Fermer">&times;</button>
+    <div class="modal-icon"><i class="fa-solid fa-circle-check"></i></div>
+    <h3 data-i18n="modal_title">Message envoyé !</h3>
+    <p data-i18n="modal_text">Merci de nous avoir contactés. Notre équipe vous répondra dans les plus brefs délais.</p>
+    <button class="btn btn-gold" id="modalOkBtn" data-i18n="modal_ok">Parfait</button>
+  </div>
+</div>
+
+<!-- ===================== COOKIE BANNER ===================== -->
+<div class="cookie-banner" id="cookieBanner">
+  <p data-i18n="cookie_text">Nous utilisons des cookies pour améliorer votre expérience sur notre site. En continuant, vous acceptez notre politique de confidentialité.</p>
+  <button class="btn btn-gold btn-small" id="cookieAccept" data-i18n="cookie_accept">J'accepte</button>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+<script>
+// Initialisation
+emailjs.init("IrDKgDni6NKjbH8n-");
+
+// Envoi du formulaire
+const contactForm = document.getElementById("mainContactForm");
+const nameInput = document.getElementById("fullName");
+const hiddenFromName = document.getElementById("hiddenFromName");
+const hiddenFullName = document.getElementById("hiddenFullName");
+const hiddenUserName = document.getElementById("hiddenUserName");
+
+if (contactForm) {
+  contactForm.addEventListener("submit", function(e) {
+    e.preventDefault();
+
+    const nameValue = nameInput ? nameInput.value.trim() : "";
+    if (hiddenFromName) hiddenFromName.value = nameValue;
+    if (hiddenFullName) hiddenFullName.value = nameValue;
+    if (hiddenUserName) hiddenUserName.value = nameValue;
+
+    emailjs.sendForm(
+      "service_9fnucl6",
+      "template_fc3bm6l",
+      this
+    )
+      .then(function() {
+        alert("Message envoyé avec succès !");
+      })
+      .catch(function(error) {
+        alert("Erreur : " + JSON.stringify(error));
+      });
+  });
+}
+</script>
+<script src="script.js"></script>
+</body>
+</html>
