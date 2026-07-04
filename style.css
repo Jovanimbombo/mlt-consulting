@@ -9,6 +9,7 @@
   --sky: #3b2bd6;
   --gold: #ffffff;
   --gold-light: #ffffff;
+  --yellow: #f5c542;
   --white: #ffffff;
   --bg-light: #f4f6f9;
   --text-dark: #1e293b;
@@ -124,6 +125,11 @@ p{ margin:0 0 1em; color: var(--text-muted); }
   color: var(--gold);
   font-weight: 600;
   margin-bottom: 0.6em;
+}
+
+#why .section-head .eyebrow,
+#services .section-head .eyebrow {
+  color: #000000;
 }
 
 .section-head{ text-align: center; max-width: 38rem; margin: 0 auto 2.5rem; }
@@ -647,7 +653,7 @@ body.dark .theme-toggle .fa-sun{ display:inline-block; }
   padding: 2rem 1.6rem;
   backdrop-filter: blur(4px);
 }
-.stars{ color: var(--gold); margin-bottom: 1rem; font-size: 0.9rem; letter-spacing: 0.2rem; }
+.stars{ color: var(--yellow); margin-bottom: 1rem; font-size: 0.9rem; letter-spacing: 0.2rem; }
 .testimonial-card p{ color: rgba(255,255,255,0.88); font-size: 0.95rem; font-style: italic; }
 .testimonial-author{ display:flex; flex-direction:column; margin-top:1rem; }
 .author-name{ color: var(--white); font-weight:600; font-size: 0.92rem; }
