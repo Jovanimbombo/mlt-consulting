@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
       nav_cta: "Prendre RDV",
 
       hero_eyebrow: "My Lovely Traveling",
-      hero_h1: "MLT CONSULTING",
+      hero_h1: "MLT CONSULTING RDC",
       hero_h2: "Heureux voyage et mémorable",
       hero_sub: "Votre partenaire de confiance pour vos projets de mobilité internationale",
       hero_cta1: "Découvrir nos services",
@@ -120,7 +120,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
       footer_slogan: "Heureux voyage et mémorable. Votre partenaire de confiance pour vos projets de mobilité internationale.",
       footer_nav_title: "Navigation",
-      footer_copy: "© 2026 MLT CONSULTING - Tous droits réservés.",
+      footer_copy: "© 2026 MLT CONSULTING RDC - Tous droits réservés.",
       footer_legal1: "Mentions légales",
       footer_legal2: "Politique de confidentialité",
 
@@ -141,7 +141,7 @@ document.addEventListener('DOMContentLoaded', () => {
       nav_cta: "Book Appointment",
 
       hero_eyebrow: "My Lovely Traveling",
-      hero_h1: "MLT CONSULTING",
+      hero_h1: "MLT CONSULTING RDC",
       hero_h2: "Happy and memorable journeys",
       hero_sub: "Your trusted partner for your international mobility projects",
       hero_cta1: "Discover our services",
@@ -244,7 +244,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
       footer_slogan: "Happy and memorable journeys. Your trusted partner for your international mobility projects.",
       footer_nav_title: "Navigation",
-      footer_copy: "© 2026 MLT CONSULTING - All rights reserved.",
+      footer_copy: "© 2026 MLT CONSULTING RDC - All rights reserved.",
       footer_legal1: "Legal notice",
       footer_legal2: "Privacy policy",
 
