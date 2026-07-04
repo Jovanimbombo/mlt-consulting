@@ -7,8 +7,8 @@
   --navy: #0b154d;
   --navy-deep: #030620;
   --sky: #3b2bd6;
-  --gold: #ffd166;
-  --gold-light: #ffe8a3;
+  --gold: #ffffff;
+  --gold-light: #ffffff;
   --white: #ffffff;
   --bg-light: #f4f6f9;
   --text-dark: #1e293b;
@@ -252,8 +252,8 @@ p{ margin:0 0 1em; color: var(--text-muted); }
   --navy: #0f2b66;            /* accent darker */
   --navy-deep: #06103a;
   --sky: #6a52ff;             /* accent bright */
-  --gold: #ffd166;
-  --gold-light: #ffe8a3;
+  --gold: #ffffff;
+  --gold-light: #ffffff;
 }
 
 /* Ensure visible text and surfaces in dark mode */
@@ -375,12 +375,12 @@ body.dark .theme-toggle .fa-sun{ display:inline-block; }
 
 /* Restore gold styling specifically for hero buttons */
 .hero .btn-gold{
-  background: linear-gradient(135deg, var(--gold) 0%, #ffbf2f 55%, var(--gold-light) 100%);
+  background: linear-gradient(135deg, var(--white) 0%, var(--white) 55%, var(--white) 100%);
   color: var(--navy-deep);
-  box-shadow: 0 8px 24px rgba(255, 209, 102, 0.25);
+  box-shadow: 0 8px 24px rgba(255,255,255,0.12);
   border-color: rgba(3,6,32,0.08);
 }
-.hero .btn-gold:hover{ transform: translateY(-3px); box-shadow: 0 12px 30px rgba(255, 209, 102, 0.35); }
+.hero .btn-gold:hover{ transform: translateY(-3px); box-shadow: 0 12px 30px rgba(255,255,255,0.16); }
 .hero .btn-outline-light{
   background: rgba(255,255,255,0.08);
   color: var(--white);
@@ -559,7 +559,7 @@ body.dark .theme-toggle .fa-sun{ display:inline-block; }
 .service-warning{
   margin-top: 0.9rem;
   padding: 0.85rem 1rem;
-  background: linear-gradient(90deg, rgba(201,169,89,0.08), rgba(201,169,89,0.03));
+  background: linear-gradient(90deg, rgba(255,255,255,0.06), rgba(255,255,255,0.03));
   border-left: 4px solid var(--gold);
   color: var(--navy);
   font-weight:600;
@@ -607,8 +607,8 @@ body.dark .theme-toggle .fa-sun{ display:inline-block; }
 .service-goal{ font-size: 0.85rem; color: var(--navy); margin:0; }
 .warning-box{
   display:flex; gap:0.7rem;
-  background: rgba(201,169,89,0.12);
-  border: 1px solid rgba(201,169,89,0.4);
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.12);
   border-radius: 8px;
   padding: 0.9rem 1rem;
   margin-top: auto;
